@@ -1,0 +1,11 @@
+type: yolov9_seg
+name: yolov9c-seg-r20250408
+display_name: YOLOv9c-Seg
+model_path:  /path/to/best.onnx
+input_width: 224
+input_height: 224
+num_masks: 1
+score_threshold: 0.5
+nms_threshold: 0.45
+classes:
+  - Crack
